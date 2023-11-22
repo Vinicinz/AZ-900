@@ -7,3 +7,37 @@ se minha equipe não conhece usa o aplicavivos de logica azure
 Azure devOps
 ferramentas direcionadas a projetos: cartas automatizadas e etc
 LInk sobre: 
+
+azure papiline não atribui função pra uma unica pessoa apenas para euqpies
+
+Azure Repos
+hospedagem de codigos 
+N precisa salvar de backups de projetos, ajuda com revisões de codigos e auxilia quando alguem muda o codigo
+
+Azure dev Test labs
+Maquinas virtuais para testes
+cria 50 MV pra um teste e logo em seguida apaga, com a função vc faz o teste com um valor economico.
+
+-----
+
+Ferramentas de gerenciamentos do Azure
+Portal do Azure
+
+App movel
+
+API REST
+-pega api pra fazer teste
+
+Azure PowerShell
+-escreve comandos pra gerenciar
+- cria como se fosse um script, uma interface de linha de comando, intala na nuvem dentro do azure, instala em qualquer plataforma em linguagem de powershell
+
+CLI - Inteface de linha de comando 
+-serviço especifico, só funfa em linox, pra rodar eu uso um script chamado "Bash?" quem usa linox custuma usar pra fazer automação e ETC
+
+Azure clouud shell
+-Dentro da nuvem eu posso usar as duas programações acima, dentro do azure a gente usa os dois CLI e PowerShell
+
+
+Azure resource Manager
+-Modelos pra ARM são arquivos em json que podem criar uma infraestrutura do 0 sem precisar gravar programas. 

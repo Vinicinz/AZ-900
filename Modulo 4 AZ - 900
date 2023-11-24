@@ -34,5 +34,23 @@ PRINCIPAOS GRUPOS DE SEGURANÇA DE REDE (NSGs)
   define regras de entrada e saida
   fica dentro da assinatura e protege as informações entre recursos e grupos de recursos. 
 
+FIREWALL DO AZURE
+  firewall como serviço (Faas)
+  filtragem de rede em multiplas assinaturas
+  Pode definir portas 
+
+    DIFERENÇAS
+      NSG - dentro do azure
+      ambos fazem defesa
+
+PROTEÇÃO OCNTRA ATQUE DDoS 
+  DDoS é tentar esgotar um serviço vomo um servidor para atacar 
+  microsoft aplica uma proteção em toda assinatura para evitar esses ataques
+  camada de serviço baisca esta ativada, mas é possiel ativar a padrão para adicionar mais recursos para proteção 9pago)
+
+PROTEÇÃO COMPLETA
+  combinando os NSGs com Firewall
+  camada de perimetro protege contra DDoS e Firewall do azure
+
   
   

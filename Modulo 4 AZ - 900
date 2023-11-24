@@ -1,0 +1,38 @@
+Microsoft Defender 
+  - para nuvem é um serviço de monitoramento pra proteção nos datacentes
+  controle just in time é instantaneo
+  dentro do MD fornce score pra ver o queao seguro está  
+  MFA - autenticador de mltifator
+  posso receber recomendações de como aumentar o score
+  Lembrar sempre é da pontuaçãosegura, comformidade de relatório é baixar relatorios de segurança, Aerta de segurança
+
+AZURE SENTINEL
+  Também pra defesa da nuvem, mas usa IA pra segurança (SIEM e SOAR) 
+  faz analise em todas as nuvens, se descobre uma falha em um DB pode afetar mais regiões e areas e se identificado falhas envia pra todos que usam essa nuvem
+  Pode ser utilizadp e conectado em Office 365 e Azure active diretory (pode cair na prova como que conecta)
+
+AZURE KEY VAULT
+
+  Armazena segredos do app em nuvem guardando de maneira segura controlando permissões e registros
+
+HOST DEDICADO DO AZURE
+  Fornece servidoers fisicos, reserva o servidor inteiro da nuvem só para o uso, 
+  vantagem é tempo de manutenção isolada 
+
+-------------------------------------------------------
+
+PROTEÇÃO COMPLETA
+  segurança fisica -> identidade e acesso -> perimetro -> rede -> computaçõa -> aplicativos -> dados
+  defesa em profundidade também é um nome uilizado
+
+SEGURANÇA COMPARTILHADA
+  segurança entre cliente e a microsoft
+  Importante lembrar que o gerenciamente de contas e acesso são sempre do cliente. 
+
+PRINCIPAOS GRUPOS DE SEGURANÇA DE REDE (NSGs)
+  focado no portal do azure
+  define regras de entrada e saida
+  fica dentro da assinatura e protege as informações entre recursos e grupos de recursos. 
+
+  
+  

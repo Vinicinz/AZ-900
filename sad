@@ -41,3 +41,15 @@ Azure clouud shell
 
 Azure resource Manager
 -Modelos pra ARM são arquivos em json que podem criar uma infraestrutura do 0 sem precisar gravar programas. 
+
+Assistente do azure
+- te da recomendações e analisa recursos pra te ajudar em:
+Custo, segurança, desempenho, 
+
+Azure monitor
+- maximiza desenpenho e disponibilidade de serviços no azure= pode te mandar alertas, analises, paineis. 
+
+Integridade de serviços 
+-te mostra sobre manuteção planejada, te comunica sobre interupções 
+
+

@@ -1,0 +1,112 @@
+Autenticação
+  identifica a pessoa (ter as credenciais)
+  uma base para criar principios de identidade e acesso seguro
+
+AUTORIZAÇÃO
+  nivel de acesso que eu tenho 
+  define quias dados eu posso acessar
+
+NFA - AUTENTIFICAÇÃO MULTIFATOR DO AZURE
+  fornece segurança adicional para uma identidade
+  algo que vc sabe X algo que vc tem X algo que você é
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+AZURE ACTIVE DIRECTORY (AAD)
+
+  serviço de gerenciamento de identidade baseado em nuvem
+  (somente gerencia de contas)
+  dentro eu tenho autenticação
+  tenho login unico (SSO)
+    - ao invez de ter uma conta pra cada serviço centralizo em um unico login pra todas as plataformas
+  ad conect - faz a conex]ao do serviço local com a nuvem
+
+ACESSO CONDICIONAl
+  é usado pelo AAD e toma decisões e impor politicas organizacionais
+  localização de IP
+  Dispositivos
+  Aplicativo
+  detecção de risco
+    - Com esse eu posso limitar acessos, tipo limitar pra android
+
+
+      METODOLOGIA DE GOVERNANCIA
+
+RBAC - CONTROLE DE ACESSO BASEADO EM FUNÇÃO
+
+  -quando entro no portal quem dominia é o AAD, ele fala quem loga e usa as assinaturas, mas eu quero dar só pra infraestrutura acesso a MV e time de BD pra limitar o nivel de autorização eu coloco com o RBAC (Vc só vai mecher com MV e só isso.)
+  - posso limitar minha propria conta.
+
+
+BLOQUEIO DE RECURSO
+
+  proteger os recursos do azure de exclusão ou modificação acidental
+  gerencia nivel da assinatura.
+    tipo de bloqueios
+    -exclusão
+    -leitura
+
+TAGS
+
+  Fornece metadados aos recursos do azure
+  organizam os recurso em uma maneira logica.
+  muito uteis para reunir informação de cobrança
+
+AZURE POLICY
+
+  ajuda a manter padrões na emprese
+  avalia recursos que n atende a politica
+  fornce politicas e iniciativas entegras em categorias. 
+  (n quero MV fora do brasil, ai apllico essa politica de n poder usar fora)
+  da pra bloquear dessa forma
+
+AZURE BLUEPRINTS
+
+  permite criar e implantar novos ambientes com rapidez
+  atribui funções, politicas, grupo de recursos
+  modelos do azure resource manager.
+  semelhante mas ja vem com politicas nas configurações dos recursos.
+
+CLOUD ADOPTION FRAMEWORK
+
+  abordagem da one microsoft para adoção de nuvem do azure
+  pode ser usado pra referencias
+  melhora praticas de funcionarios e parceiros da microsoft
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+SEGURANÇA, PRIVACIDADE E CONFORMIDADE
+
+  Segurança - intencionalmente seguro. com segurança inteligente integrada, a miscrosoft ajuda a proteger de ameaças. 
+  Privacidade - temos o compromisso de garantir a privacidade
+  conformidades - são abordados em termos de requisitos de conformidade (pensar como uma certificação)
+  -(CJIS) - serviço de justiça criminal como exemplo
+  - mas diversas certificações como: CSA STAR, ISO, IEC 27018, NISt
+
+  EXEMPLOS :  
+  Nna europa exesite a GDPR e significa que se vc tem recursos na assinatura que armazena fora da europa, não pode!
+
+POLITICA DE PRIVACIDADE DA MICROSOFT
+  -Promove abertura e privacidade com abertura e honestidade com os dados, sempre mostrando os dados que ela processa e sendo transparente nessa questão
+    DENTRO DA POLITICAS TEMOS OS TERMOS DE SERVIÇO
+      -termos de serviço online, os termos definem condiçoes do produto online adquiridos por meios dos programs de licenciamento 
+      - adendo é a caixinha que clica pra confirmar
+
+CENTRAL DE CONFIABILIDADE
+  site que mostra conformidades, politicas que nuvem tem (Equipe juridica que usa mais)
+  procura brechas que a microsoft tem
+  falou de equipe juridica tem que lembrar da central de confiabilidade
+
+DOCUMENTAÇÃO DE CONFORMIDADE DO AZURES
+  conjunto abranjente de confomridades para ajudar sua organização a cumprir requisitos nacionais.
+  global, governo dos EUA, setor, Regional
+
+
+
+REGIOÕES SOBERANAS  
+  atende as necessidades de segurança e conformidade das agencias federais dos EUA.
+  China tmb tem região soberana, e não podem ter dados fora de la pela conformidade
+
+  
+  

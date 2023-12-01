@@ -1,0 +1,48 @@
+• Componentes de arquitetura do Azure
+    • Regiões e zonas de disponibilidade
+    • Assinaturas e grupos de recursos
+• Computação e rede
+    • Tipos de computação
+    • Hospedagem de aplicativos
+    • Redes virtuais
+• Armazenamento
+  • Serviços de armazenamento
+  • Opções de redundância
+  • Gerenciamento e migração de arquivos
+
+__________________________________________________________________________________________________________________
+
+
+                  Contas do Azure
+
+Gratuito
+Novos usuários receberão créditos de US$ 200 para gastar em qualquer produto Azure nos primeiros 30 dias.
+
+Pay-as-you-go (PAYG) 
+Cobra mensalmente pelos serviços usados
+
+Aluno
+Os alunos receberão um crédito de US$ 100 para gastar nos primeiros 12 meses.
+
+__________________________________________________________________________________________________________________
+
+
+                Regiões
+
+Pares de Regiões
+No mínimo 300 milhas de separação entre pares de regiões.
+Replicação automática para alguns serviços.
+
+       Zonas de disponibilidades
+Proteção regional dentro dos Limites de Residência de Dados
+PARES DE REGIÕES
+
+Lift-and-shift mais fácil
+VM ÚNICA
+
+
+
+
+
+
+

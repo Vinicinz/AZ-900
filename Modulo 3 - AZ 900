@@ -1,14 +1,87 @@
-Minha equpie conhece liguagem de programação ent usa azure functinions
-se minha equipe não conhece usa o aplicavivos de logica azure
+• Principais soluções do Azure
+  •  IoT para Azure Sphere
+  •  Synapse Analytics para Databricks
+  •  IA/ML
+• Ferramentas de gerenciamento do Azure
+  •  Portal, PowerShell, CLI e outras
+  •  Assistente, Monitor e Integridade do Serviço
+
+__________________________________________________________________________________________________________________
+
+                INTERNET DAS COISAS IOT 
 
 
----------
+AZURE IOT CENTRAL 
+Solução SaaS, uma plataforma de iot, gerencia ativos de iot em escala
+
+HUB IOT DO AZURE
+é ospedado em nuvem, atua como um hub de mensagens de comunicação entre apps iot e dispositivos. 
+
+AZURE SPHERE
+plataforma de aplicativo com recursos internos de comunicação pra IoTs É O MAIS SEGURO 
+
+__________________________________________________________________________________________________________________
+
+
+                  Big data e análise
+
+Azure Synapse Analytics
+Um Enterprise Data Warehouse baseado em nuvem.
+
+Azure HDInsight
+Um serviço de análise open-source e totalmente gerenciado para empresas.
+
+Azure Databricks
+Serviço de análise baseado no Apache Spark.
+
+ESSE SERVIÇO TEM ALTA DISPONIBILIDADE
+
+DataLakes
+Suporta dados estruturados!!!!!
+
+__________________________________________________________________________________________________________________
+
+
+                Inteligência Artificial e Machine Learning
+
+
+Azure Machine Learning
+baseado em nuvem para desenvolver,,treinar e implantar modelos de machine learning.
+
+Serviços Cognitivos 
+habilitar rapidamente os aplicativos para ver, ouvir, falar, entender e interpretar as necessidades de um usuário.
+
+Serviço de Bot do Azure
+desenvolver bots inteligentes, de nível empresarial.
+                  
+__________________________________________________________________________________________________________________
+
+
+                    Computação sem Servidor
+
+Azure Functions
+Desenvolvimento multiplataforma (Windows, Linux e Mac) e orientado a eventos (uso de triggers)
+Suporte a várias plataformas: .NET Core, Java, Node.js, Python, PowerShell, TypeScript
+Baixíssimo custo de hospedagem
+
+
+Aplicativos Lógicos do Azure
+Automatizar e orquestrar tarefas, processos empresariais e fluxos de trabalho para integrar aplicativos.
+
+  Minha equpie conhece liguagem de programação ent usa azure functinions
+  se minha equipe não conhece usa o aplicavivos de logica azure
+
+
+__________________________________________________________________________________________________________________
+
+
+              Desenvolver aplicativos com DevOps e GitHub
 
 Azure devOps
 ferramentas direcionadas a projetos: cartas automatizadas e etc
-LInk sobre: 
+incluindo pipelines, cartões Kanban e testes de carga automatizadosmbaseados em nuvem.
 
-azure papiline não atribui função pra uma unica pessoa apenas para euqpies
+azure papiline não atribui função pra uma unica pessoa apenas para equipes
 
 Azure Repos
 hospedagem de codigos 
@@ -18,38 +91,45 @@ Azure dev Test labs
 Maquinas virtuais para testes
 cria 50 MV pra um teste e logo em seguida apaga, com a função vc faz o teste com um valor economico.
 
------
+__________________________________________________________________________________________________________________
 
-Ferramentas de gerenciamentos do Azure
+                            Ferramentas de gerenciamentos do Azure
+
 Portal do Azure
 
 App movel
 
 API REST
--pega api pra fazer teste
+pega api pra fazer teste
 
 Azure PowerShell
--escreve comandos pra gerenciar
-- cria como se fosse um script, uma interface de linha de comando, intala na nuvem dentro do azure, instala em qualquer plataforma em linguagem de powershell
+escreve comandos pra gerenciar
+cria como se fosse um script, uma interface de linha de comando, intala na nuvem dentro do azure, instala em qualquer plataforma em linguagem de powershell
 
 CLI - Inteface de linha de comando 
--serviço especifico, só funfa em linox, pra rodar eu uso um script chamado "Bash?" quem usa linox custuma usar pra fazer automação e ETC
+serviço especifico, só funfa em linox, pra rodar eu uso um script chamado "Bash?" quem usa linox custuma usar pra fazer automação e ETC
 
-Azure clouud shell
--Dentro da nuvem eu posso usar as duas programações acima, dentro do azure a gente usa os dois CLI e PowerShell
-
+Azure cloud shell
+Dentro da nuvem eu posso usar as duas programações acima, dentro do azure a gente usa os dois CLI e PowerShell
 
 Azure resource Manager
--Modelos pra ARM são arquivos em json que podem criar uma infraestrutura do 0 sem precisar gravar programas. 
+Modelos pra ARM são arquivos em json que podem criar uma infraestrutura do 0 sem precisar gravar programas. 
+codigo exportavel
+
+
+__________________________________________________________________________________________________________________
 
 Assistente do azure
-- te da recomendações e analisa recursos pra te ajudar em:
+te da recomendações e analisa recursos pra te ajudar em:
 Custo, segurança, desempenho, 
 
 Azure monitor
-- maximiza desenpenho e disponibilidade de serviços no azure= pode te mandar alertas, analises, paineis. 
+maximiza desenpenho e disponibilidade de serviços no azure, 
+pode te mandar alertas, analises, paineis. 
+pode monitorar recursos através de múltiplas Subscriptions
 
 Integridade de serviços 
--te mostra sobre manuteção planejada, te comunica sobre interupções 
+te mostra sobre manuteção planejada, te comunica sobre interupções
+análises de causa raiz oficiais da interrupção para incidentes do Azure
 
 

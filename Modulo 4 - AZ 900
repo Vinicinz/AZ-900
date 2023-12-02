@@ -1,28 +1,42 @@
-Microsoft Defender 
-  - para nuvem é um serviço de monitoramento pra proteção nos datacentes
-  controle just in time é instantaneo
-  dentro do MD fornce score pra ver o queao seguro está  
-  MFA - autenticador de mltifator
-  posso receber recomendações de como aumentar o score
-  Lembrar sempre é da pontuaçãosegura, comformidade de relatório é baixar relatorios de segurança, Aerta de segurança
+▪ Recursos de Segurança do Azure
+    • Central de Segurança e limpeza de recursos
+    • Key Vault, Sentinel e Hosts Dedicados
+▪ Segurança de rede do Azure
+    • Proteção completa
+    • Grupos de Segurança de Rede e Firewalls
+    • Proteção contra DDoS
+______________________________________________________________________________________________________
 
-AZURE SENTINEL
-  Também pra defesa da nuvem, mas usa IA pra segurança (SIEM e SOAR) 
-  faz analise em todas as nuvens, se descobre uma falha em um DB pode afetar mais regiões e areas e se identificado falhas envia pra todos que usam essa nuvem
-  Pode ser utilizadp e conectado em Office 365 e Azure active diretory (pode cair na prova como que conecta)
+                        Microsoft Defender para nuvem 
 
-AZURE KEY VAULT
+é um serviço de monitoramento pra proteção nos datacentes
+controle just in time é instantaneo
+dentro do MD fornce score pra ver o queao seguro está  
+MFA - autenticador de multifator
+posso receber recomendações de como aumentar o score
+Lembrar sempre é da pontuação segura, comformidade de relatório é baixar relatorios de segurança, Alerta de segurança
 
-  Armazena segredos do app em nuvem guardando de maneira segura controlando permissões e registros
+                        AZURE SENTINEL
+Também pra defesa da nuvem, mas usa IA pra segurança (SIEM e SOAR) 
+faz analise em todas as nuvens, se descobre uma falha em um DB pode afetar mais regiões e areas e se identificado falhas envia pra todos que usam essa nuvem
+Pode ser utilizado e conectado em Office 365 e Azure active diretory (pode cair na prova como que conecta)
 
-HOST DEDICADO DO AZURE
-  Fornece servidoers fisicos, reserva o servidor inteiro da nuvem só para o uso, 
-  vantagem é tempo de manutenção isolada 
+                        AZURE KEY VAULT
 
--------------------------------------------------------
+Armazena segredos do app em nuvem guardando de maneira segura controlando permissões e registros
 
-PROTEÇÃO COMPLETA
-  segurança fisica -> identidade e acesso -> perimetro -> rede -> computaçõa -> aplicativos -> dados
+                        HOST DEDICADO DO AZURE
+
+Fornece servidoers fisicos, reserva o servidor inteiro da nuvem só para o uso, 
+vantagem é tempo de manutenção isolada 
+
+______________________________________________________________________________________________________
+                  Conectividade de Rede Segura
+
+
+                        PROTEÇÃO COMPLETA
+
+segurança fisica -> identidade e acesso -> perimetro -> rede -> computaçõa -> aplicativos -> dados
   defesa em profundidade também é um nome uilizado
 
 SEGURANÇA COMPARTILHADA
@@ -44,9 +58,9 @@ FIREWALL DO AZURE
       ambos fazem defesa
 
 PROTEÇÃO OCNTRA ATQUE DDoS 
-  DDoS é tentar esgotar um serviço vomo um servidor para atacar 
+  DDoS é tentar esgotar um serviço como um servidor para atacar 
   microsoft aplica uma proteção em toda assinatura para evitar esses ataques
-  camada de serviço baisca esta ativada, mas é possiel ativar a padrão para adicionar mais recursos para proteção 9pago)
+  camada de serviço basica esta ativada, mas é possiel ativar a padrão para adicionar mais recursos para proteção 9pago)
 
 PROTEÇÃO COMPLETA
   combinando os NSGs com Firewall
